@@ -1,18 +1,19 @@
 {
 	"$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
 	"type": "connection",
-	"id": "your-module-name",
-	"name": "your-module-name",
-	"shortname": "module-shortname",
-	"description": "A short one line description of your module",
+	"id": "holboxdesign-rio",
+	"name": "holboxdesign-rio",
+	"shortname": "rio",
+	"description": "Control Rio, the live video software by Holbox Design: cues, deck, Preview, timeline, audio desk and outputs, with feedbacks and variables.",
 	"version": "0.0.0",
 	"license": "MIT",
-	"repository": "git+https://github.com/bitfocus/companion-module-your-module-name.git",
-	"bugs": "https://github.com/bitfocus/companion-module-your-module-name/issues",
+	"repository": "git+https://github.com/bitfocus/companion-module-holboxdesign-rio.git",
+	"bugs": "https://github.com/bitfocus/companion-module-holboxdesign-rio/issues",
 	"maintainers": [
 		{
-			"name": "Your name",
-			"email": "Your email"
+			"name": "Holbox Design",
+			"email": "c.linocent@gmail.com",
+			"github": "Lazyybird"
 		}
 	],
 	"runtime": {
@@ -22,7 +23,7 @@
 		"entrypoint": "../src/main.js"
 	},
 	"legacyIds": [],
-	"manufacturer": "Your company",
-	"products": ["Your product"],
-	"keywords": []
+	"manufacturer": "Holbox Design",
+	"products": ["Rio"],
+	"keywords": ["video", "playback", "cue", "deck", "mapping", "timeline", "vj", "audio", "stopwatch", "countdown"]
 }
